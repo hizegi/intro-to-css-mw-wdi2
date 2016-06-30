@@ -1,6 +1,6 @@
 # CSS - An Introduction
 
-## Lesson Objectives
+## Lesson Objectives - I Will Be Able To (IWBAT)...
 
 - [Define CSS and describe its use](#define)
 - [How to add CSS rules to your app](#rules)
@@ -16,6 +16,8 @@
 <br>
 
 ## <a name="define">Define CSS and describe its use</a>
+
+**QUESTION**: Can anyone describe CSS for us?
 
 HTML gives our site structure, but it doesn't do much in terms of how the site looks.  This is where CSS comes in. CSS stands for:
 
@@ -46,16 +48,16 @@ There are 3 ways to add CSS style rules to your app:
 
 ```html
 <html>
-	<head>
-		<style>
-			p {
-				color: red
-			}
-		</style>
-	</head>
-	<body>
+  <head>
+    <style>
+	  p {
+		  color: red
+		}
+	</style>
+  </head>
+  <body>
 		
-	</body>	
+  </body>	
 </html>	
 ```  
 	
@@ -138,13 +140,15 @@ Here are some properties that you can set for an element
 
 ![Imgur](http://i.imgur.com/ylb6WX9.gif)
 
-1. Create an html page with a `p` tag and some placeholder text
-1. Change its text color to a hex value that you choose from http://color.adobe.com
-1. Give it a background color
-1. Make the size of the text larger
-1. Change its font family to a sans-serif font
-1. Make the text bold
-1. Center the text
+
+- Create an html page with a `p` tag and some placeholder text
+2. Change its text color to a hex value that you choose from http://color.adobe.com
+3. Give it a background color
+4. Make the size of the text larger
+5. Change its font family to a sans-serif font
+6. Make the text bold
+7. Center the text
+
 
 <br>
 
@@ -171,10 +175,12 @@ Sometimes just targeting an element is not enough.  We can target other attribut
 
 ![Imgur](http://i.imgur.com/ylb6WX9.gif)
 
-1. Add two more `p` tags.
-1. Give one `p` tag an id
-1. Give the other two `p` tags the same class
-1. Use just the ids and classes to style `p` tag with the id differently from the ones with a class
+
+- Add two more `p` tags.
+2. Give one `p` tag an id
+3. Give the other two `p` tags the same class
+4. Use just the ids and classes to style `p` tag with the id differently from the ones with a class
+
 
 <br>
 
@@ -186,9 +192,12 @@ Some properties of elements are passed down to their children. In general:
 - Properties dealing with spacing are not inherited by their children
 - https://www.w3.org/TR/CSS2/propidx.html
 
+<br>
+
 ![Imgur](http://i.imgur.com/ylb6WX9.gif)
 
-1. Create a `p` tag within a `section` tag
+
+- Create a `p` tag within a `section` tag
 2. Put some text in the `section` tag, but outside the `p` tag
 3. Put some text in the `p` tag
 4. Style just the `section` tag to give its text some color
@@ -224,25 +233,27 @@ Selectors can be more complex than just an element, id, or class.
 		
 		```html
 		<main>
-			<p></p>
+		  <p></p>
 		</main>
 		```
 		```html
 		<main>
-			<section>
-				<p></p>
-			</section>
+		  <section>
+		    <p></p>
+		  </section>
 		</main>
 		```
 		
 ![Imgur](http://i.imgur.com/ylb6WX9.gif)
 
-1. Create a rule for all `p` tags that also have a class of `active`
-1. For this rule, make the text bold
-1. Add an `active` class to a few of your p tags
-1. Create a rule for all `div` tags that also have a class of `active`
-1. For this rule, make the text very large
-1. Create a `div` tag with the class of `active`
+
+- Create a rule for all `p` tags that also have a class of `active`
+- For this rule, make the text bold
+- Add an `active` class to a few of your p tags
+- Create a rule for all `div` tags that also have a class of `active`
+- For this rule, make the text very large
+- Create a `div` tag with the class of `active`
+
 
 <br>
 
