@@ -69,6 +69,12 @@ There are 3 ways to add CSS style rules to your app:
 
 <br>
 
+![](http://i.imgur.com/2BtC2Zx.gif)
+
+What are 3 ways to add CSS rules to your page? Which is the best practice?
+
+<br>
+
 ## <a name="diagram">Diagram the structure of CSS</a>
 
 A CSS file is composed of many rules.  Each rule governs the appearance of certain elements.  The generalized form looks like:
@@ -84,6 +90,20 @@ selector {
  Everything inside the curly braces is called the "declaration block"
 
 <br>
+
+
+![wedo](http://i.imgur.com/6Kce0ca.png)
+
+Let's code along and set up our Cloud9 workspace.
+
+<br>
+
+![](http://i.imgur.com/2BtC2Zx.gif)
+
+What are the 3 components of a CSS rule?
+
+<br>
+
 
 ## <a name="demonstrate">Demonstrate how to apply rules to a specific tag</a>
 
